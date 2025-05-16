@@ -13,8 +13,8 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME", "nexaq")
-BOT_USERNAME = getenv("BOT_USERNAME", "CHOCOxAKG_bot")
-BOT_NAME = getenv("BOT_NAME", "CHOCOAUTOBOT •🪽")
+BOT_USERNAME = getenv("BOT_USERNAME", "FALCON_X_ROBOT")
+BOT_NAME = getenv("BOT_NAME", "FALCON •🪽")
 ASSUSERNAME = getenv("ASSUSERNAME", "CHOCO_ASSISTANT_BOLTE")
 EVALOP = list(map(int, getenv("EVALOP", "7046757969").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
