@@ -21,7 +21,7 @@ async def imagine_(b, message: Message):
         caption = f"""
     💘sᴜᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ : {text}
 
-    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @Falcon_Probot
+    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @FALCON_X_ROBOT
     🥀ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}
     """
         await FALCON.delete()
