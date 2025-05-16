@@ -62,7 +62,7 @@ def download_song(_, message):
     except Exception as e:
         print(e)
         
-def get_text(message: Message) -> [None, str]:
+def get_text(message: Message) -> [str , None]:
     text_to_return = message.text
     if message.text is None:
         return None
